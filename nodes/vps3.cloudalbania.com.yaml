@@ -1,4 +1,4 @@
 ---
 classes:
-  - role::mariadb
+  - role::mariadbrole
 environment: production
