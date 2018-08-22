@@ -71,5 +71,13 @@ DB node:
       - role::maria-db
     environment: production
 
-And that's it. Now we have a bare minimum working ENC.
+And that's it. Now we have a bare minimum working ENC. You can try out the ENC functionality by checking the output of the ENC itself:
+
+    22:27 # /var/local/bash-enc/enc.sh vps3.cloudalbania.com
+    ---
+    classes:
+      - role::maria-db
+    environment: production
+
+
 
