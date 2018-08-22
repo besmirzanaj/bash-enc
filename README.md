@@ -1,5 +1,5 @@
 # bash-enc
-A quick and dirty ENC for puppet
+A quick and dirty ENC (external node classifier) for puppet.
 
 This is an effort to have a quick enc for a small server farm (e.g less than 50 hosts and without r10k) but that will solve issues of node belonging to an environment and which classes are applicable to a specific node.
 
