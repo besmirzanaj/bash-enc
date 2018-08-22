@@ -1,4 +1,4 @@
 ---
 classes:
-  - role::maria-db
+  - role::mariadb
 environment: production
