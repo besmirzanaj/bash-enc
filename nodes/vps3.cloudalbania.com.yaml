@@ -1,0 +1,4 @@
+---
+classes:
+  - role::maria-db
+environment: production

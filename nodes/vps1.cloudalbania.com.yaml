@@ -1,0 +1,4 @@
+---
+classes:
+  - role::web
+environment: production

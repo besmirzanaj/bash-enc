@@ -1,0 +1,4 @@
+---
+classes:
+  - role::puppet
+environment: production
