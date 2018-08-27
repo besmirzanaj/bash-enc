@@ -48,10 +48,10 @@ and here are the roles:
 ## ENC configuration
 Let's change puppet server to read node classifications from the new enc. Add the following to your puppet.conf.
 
-   cat  /etc/puppetlabs/puppet/puppet.conf
-   ...
-   node_terminus = exec
-   external_nodes = /var/local/bash-enc/enc.sh
+    cat  /etc/puppetlabs/puppet/puppet.conf
+    ...
+    node_terminus = exec
+    external_nodes = /var/local/bash-enc/enc.sh
    
 Now let's add our node classifications in <code>/var/local/bash-enc/nodes/</code>. Based on the [Puppet ENC documentation](https://puppet.com/docs/puppet/5.5/nodes_external.html) we can define our nodes like this:
 
