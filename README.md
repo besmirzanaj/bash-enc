@@ -16,7 +16,7 @@ Let's set this up anywhere out of puppet server config or bin files:
 
 Now we can place node definitions in <code>/var/local/bash-enc/nodes/</code> folder. 
 
-In https://github.com/besmirzanaj/puppet-master I have made sure to create the roles/profiles model to manage node configurations. Let's assume we need to build a classical web application with apache as frontend and a mariadb database. We need at least two nodes for each role.
+In https://github.com/besmirzanaj/puppet-master I have made sure to create the roles/profiles model to manage node configurations. Let's assume we need to build a classical web application with apache as frontend and a mariadb database. We need at least two nodes, one for each role.
 
 Node <code>vps1.cloudalbania.com</code> will be our web server and <code>vps3.cloudalbania.com</code> will be our database server. We will assume all modules are in place and available and that we have at least three profiles for our two roles:
     
